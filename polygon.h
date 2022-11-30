@@ -4,11 +4,10 @@
 #include "lineSegment.h"
 #include <vector>
 
-using std::vector;
 
 class polygon {
 private:
-    vector<Point> points;
+    std::vector<Point> points;
     Point main;
     size_t size;
     bool debug;

@@ -1,14 +1,14 @@
 #include "polygon.h"
-
-#include <iostream>
+#include "fstream"
 
 polygon::polygon(std::ifstream& inputFile, bool debug) {
-    Point read;
-    int i = 0;
     this->debug = debug;
-    while (inputFile >> read){
-        if (debug) std::cout << "Point " << i+1 << " = " << read << " scanned." << std::endl;
-        points.push_back(read);
+
+    Point readPoint;
+    int i = 1;
+    while (inputFile >> readPoint.x >> readPoint.y){
+        if (debug) std::cout << "Point " << i << " = " << readPoint << " scanned." << std::endl;
+        points.push_back(readPoint);
     }
 
     main = points.back();
@@ -16,7 +16,7 @@ polygon::polygon(std::ifstream& inputFile, bool debug) {
     size = points.size();
 
     if (debug){
-        std::cout << "Scanned " << size << "points:" << std::endl;
+        std::cout << "Scanned " << size << " points:" << std::endl;
         for (int j = 0; j < size; j++){
             std::cout << points[j] << std::endl;
         }
@@ -51,7 +51,7 @@ void polygon::isPointInsidePoly(std::ofstream& outputFile) {
 
     lineSegment pointRay(main, rayEnd);
 
-    if (debug) std::cout << "Working with " << pointRay << std::endl;
+    if (debug) std::cout << std::endl << "Working with " << pointRay << std::endl;
 
     for (int i = 0; i < size; i++){
         if (i != size-1){

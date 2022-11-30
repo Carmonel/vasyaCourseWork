@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/Point.h
+iostream
+-
+fstream
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/fstream
+
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/lineSegment.h
+iostream
+-
+queue
+-
+Point.h
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/Point.h
+
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/polygon.cpp
+polygon.h
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/polygon.h
+fstream
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/fstream
+
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/polygon.h
+lineSegment.h
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/lineSegment.h
+vector
+-
+

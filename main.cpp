@@ -22,13 +22,13 @@ int main(int argc, char* argv[]) {
         debug = true;
     }
 
-    std::ifstream inputFile(argv[1]);
+    std::ifstream inputFile(argv[1], std::ios::in);
     if (inputFile.fail()){
         std::cout << "Input file path incorrect.";
         exit(-1);
     }
 
-    std::ofstream outputFile(argv[2]);
+    std::ofstream outputFile(argv[2], std::ios::out);
     if (outputFile.fail()){
         std::cout << "Output file path incorrect.";
         exit(-1);

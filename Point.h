@@ -2,6 +2,7 @@
 #define KURS_VASYA_POINT_H
 
 #include <iostream>
+#include "fstream"
 
 typedef struct{
     int x;
@@ -10,10 +11,6 @@ typedef struct{
 
 inline bool operator==(const Point& x, const Point& y){
     return (x.x == y.x) && (x.y == y.y);
-}
-
-inline void operator>>(std::istream& in, Point& a){
-    in >> a.x >> a.y;
 }
 
 inline std::ostream& operator<<(std::ostream& out, const Point& a){

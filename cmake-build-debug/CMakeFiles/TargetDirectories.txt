@@ -1,3 +1,3 @@
-/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir

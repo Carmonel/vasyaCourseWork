@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/lineSegment.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/lineSegment.cpp.o"
-  "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/main.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/main.cpp.o"
-  "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/polygon.cpp" "/cygdrive/c/Users/Ярослав/CLionProjects/vasyaCourseWork/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/polygon.cpp.o"
+  "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/lineSegment.cpp" "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/lineSegment.cpp.o"
+  "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/main.cpp" "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/main.cpp.o"
+  "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/polygon.cpp" "/cygdrive/c/Users/Administrator/CLionProjects/vasyaCourse/cmake-build-debug/CMakeFiles/vasyaCourseWork.dir/polygon.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
